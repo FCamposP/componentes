@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 20.69 25">
+  <defs>
+    <style>.cls-1{fill:#4e00c0;}.cls-2{fill:#8f6ed5;}.cls-3{fill:#fff;}</style>
+  </defs>
+  <title>Artboard 2</title>
+  <path class="cls-1" d="M20.69,14.09C20.69,21.6,10.34,25,10.34,25S0,21.6,0,14.09V0H20.69Z"></path>
+  <polygon class="cls-2" points="0 14.49 0 0 14.49 0 0 14.49"></polygon>
+  <path class="cls-3" d="M5.94,16.06V4.5h8.72V6.76H8.47V9.11h5.45v2.26H8.47V13.8h6.27v2.26Z"></path>
+</svg>
