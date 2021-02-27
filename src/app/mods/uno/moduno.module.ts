@@ -9,6 +9,7 @@ import { ModUnoRoutes } from './uno.routes';
 import { ShopifyComponent } from './shopify/shopify.component';
 import { DescuentoComponent } from './descuento/descuento.component';
 import { FeedbackComponent } from './feedback/feedback.component';
+import { Motivador1Component } from './motivador1/motivador1.component';
 
 
 
@@ -21,7 +22,8 @@ import { FeedbackComponent } from './feedback/feedback.component';
     UnidoComponent,
     ShopifyComponent,
     DescuentoComponent,
-    FeedbackComponent
+    FeedbackComponent,
+    Motivador1Component
   ],
   imports: [
     CommonModule,
