@@ -5,6 +5,8 @@ import { CardsComponent } from './cards/cards.component';
 import { CargoodComponent } from './cargood/cargood.component';
 import { DescuentoComponent } from './descuento/descuento.component';
 import { FeedbackComponent } from './feedback/feedback.component';
+import { Motivador1Component } from './motivador1/motivador1.component';
+import { Motivador2Component } from './motivador2/motivador2.component';
 import { ShopifyComponent } from './shopify/shopify.component';
 import { UnidoComponent } from './unido/unido.component';
 import { VacioComponent } from './vacio/vacio.component';
@@ -18,6 +20,8 @@ import { VacioComponent } from './vacio/vacio.component';
     {path:'carcool',component:CarcoolComponent},
     {path:'descuento',component:DescuentoComponent},
     {path:'feedback',component:FeedbackComponent},
+    {path:'motivador1',component:Motivador1Component},
+    {path:'motivador2',component:Motivador2Component},
  ]}
 
 ];
