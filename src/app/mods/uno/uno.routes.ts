@@ -13,9 +13,9 @@ import { VacioComponent } from './vacio/vacio.component';
 
  const unoRoutes:Routes=[
  {path:'uno',component:VacioComponent,children:[
+   {path:'coms',component:UnidoComponent},
     {path:'cards',component:CardsComponent},
     {path:'cargood',component:CargoodComponent},
-    {path:'coms',component:UnidoComponent},
     {path:'shopy',component:ShopifyComponent},
     {path:'carcool',component:CarcoolComponent},
     {path:'descuento',component:DescuentoComponent},

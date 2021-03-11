@@ -11,6 +11,7 @@ import { DescuentoComponent } from './descuento/descuento.component';
 import { FeedbackComponent } from './feedback/feedback.component';
 import { Motivador1Component } from './motivador1/motivador1.component';
 import { Motivador2Component } from './motivador2/motivador2.component';
+import { ShopifyDetailComponent } from './shopify-detail/shopify-detail.component';
 
 
 
@@ -26,6 +27,7 @@ import { Motivador2Component } from './motivador2/motivador2.component';
     FeedbackComponent,
     Motivador1Component,
     Motivador2Component,
+    ShopifyDetailComponent,
   ],
   imports: [
     CommonModule,

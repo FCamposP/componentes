@@ -1,33 +1,23 @@
-<div id=page class="page program-details-page">
-
-
+<div class="page program-details-page">
     <main id=main-content name=main-content tabindex=-1 aria-label=Contenido>
-
-
         <div class="container-fluid program-section d-flex align-items-center flex-column mb-0 program-enroll-wrapper communication">
-            <h2 class="h2 section-title">Inscríbete ahora</h2>
-            <div class="program-price d-flex flex-wrap"><span><span class=sr-only>Precio con descuento:</span> $176.40</span>
-                <div class=font-weight-normal><span><span class=sr-only>Precio original:</span> <s class=ml-2>$196</s></span><span class=ml-1></span></div>
+            <h2 class="h2 section-title">{{descuento.header}}</h2>
+            <div class="program-price d-flex flex-wrap">
+                <span>
+                    <span >Precio con descuento:</span>
+                     ${{descuento.precioDescuento}}
+                </span>
+                <hr>
             </div>
-            <div class=enroll-context>4 cursos en 5 meses</div>
-            <div class=program-pursue-btn><a href="#" class="enroll-btn btn btn-brand w-100" id=program-enrolling-now-section-btn><span>Inscríbete en el programa</span></a>
+            <div class=font-weight-normal><span><span >Precio original:</span> <s class=ml-2>${{descuento.precioOriginal}}</s></span><span class=ml-1></span></div>
+            <div class=enroll-context>{{descuento.promocion}} </div>
+            <div class=program-pursue-btn><a [href]="descuento.urlAction" class="enroll-btn btn btn-brand w-100" id=program-enrolling-now-section-btn><span>{{descuento.msjBtn}} </span></a>
                 <div class=form-field><label class="register-emails d-flex" for=email-opt-in><input type=checkbox id=email-opt-in value=false class="email-opt-in mr-2" name=opt-in>
-                        <div class=email-opt-in-terms>Me gustaría recibir correos electrónicos de GalileoX e informarme sobre otras ofertas relacionadas con Marketing Digital.</div>
+                        <div class=email-opt-in-terms>{{descuento.descripcion}} </div>
                     </label></div>
             </div>
         </div>
-        <div class="subject-topics mb-5 mt-lg-5" style=display:none!important>
-            <div class="container mw-lg" style=display:none!important>
-                <nav aria-label="ruta de navegación" style=display:none!important>
-                    <ol class="breadcrumb-list list-inline" style=display:none!important>
-                        <li role=presentation aria-label=espaciador style=display:none!important>
-                            <svg aria-hidden=true focusable=false data-prefix=fas data-icon=angle-right class="svg-inline--fa fa-angle-right fa-w-8 spacer" role=img viewBox="0 0 256 512">
-                                <path fill=currentColor d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
-                            </svg>
-                    </ol>
-                </nav>
-            </div>
-        </div>
+
     </main>
 
 </div>

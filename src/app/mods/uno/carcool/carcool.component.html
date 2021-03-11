@@ -4,38 +4,38 @@
         <div class=marketplace-appCard-innerContainer>
             <a class=appCard-top href="#" tabindex=0>
                 <div class=appCard-logoContainer>
-                    <img class=appCard-logo
-                        src='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="259" height="158"><rect fill-opacity="0"/></svg>'
-                        style="background-blend-mode:normal!important;background-clip:content-box!important;background-position:50% 50%!important;background-color:rgba(0,0,0,0)!important;background-image:var(--sf-img-44)!important;background-size:100% 100%!important;background-origin:content-box!important;background-repeat:no-repeat!important">
+                    <img class=appCard-logo src='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="259" height="158"><rect fill-opacity="0"/></svg>'>
                 </div>
                 <div class=ng-isolate-scope>
-                    <div class="appCard-featured ng-scope"><svg width=44 height=40 viewBox="0 0 44 40" class=ng-scope>
+                    <div class="appCard-featured">
+                        <svg width=44 height=40 viewBox="0 0 44 40" class=ng-scope>
                             <g fill=none fill-rule=evenodd>
                                 <path fill=#FFD77E d="M0 0l44 40V0z"></path>
                                 <path fill=#C57F0E
                                     d="M29.46 15.844l-3.993 2.028.763-4.296L23 10.535l4.464-.627L29.46 6l1.996 3.908 4.464.627-3.23 3.041.762 4.296z">
                                 </path>
                             </g>
-                        </svg></div>
+                        </svg>
+                    </div>
                 </div>
             </a>
             <div class=appCard-bottom>
                 <div class=appCard-hoverContainer>
                     <div class=appCard-content style=position:relative>
-                        <a class=appCard-linkOverlay href="#" tabindex=0></a>
+                        <a class=appCard-linkOverlay [href]="exeCard.hrefDetail" tabindex=0></a>
                         <h3 class="appCard-heading appCard-heading-link ng-binding">
-                            PayHelm Accounting &amp; Reporting
+                            {{exeCard.heading}}
                         </h3>
                         <div class=appCard-categories>
                             <div include-children=false class="ng-isolate-scope appCard-categories"><a
-                                    class="appCard-category ng-binding" href="#" tabindex=0>
-                                    Accounting &amp; Tax
+                                    class="appCard-category ng-binding" [href]="exeCard.hrefCategory" tabindex=0>
+                                    {{exeCard.category}}
                                 </a>
                             </div>
                         </div>
                         <div class=appCard-ratingAndTier>
                             <div class=appCard-reviews>
-                                <a href="#" tabindex=0>
+                                <a [href]="exeCard.hrefReviews" tabindex=0>
                                     <div class=ng-isolate-scope>
                                         <div class="ng-scope ng-isolate-scope">
                                             <div class=starRating-container>
@@ -60,16 +60,13 @@
                                 </a>
                             </div>
                         </div>
-                        <a class="appCard-tierBadge" href="#" tabindex=0>
-                            <img ng-src="https://s3.amazonaws.com/www1.bigcommerce.com/assets/BigCommerce-Preferred-Partner-Icon.svg?mtime=20190506162619"
-                                alt=Preferred title="Preferred tier logo" class=ng-scope
-                                src="../../../../assets/img/carcool/imagesvgZGRkZGwvc3ZnPgo.svg">
+                        <a class="appCard-tierBadge" [href]="exeCard.hrefProveedor" tabindex=0>
+                            <img title="Preferred tier logo" class=ng-scope
+                                [src]="exeCard.imgsvg">
                         </a>
                     </div>
-                    <div class="appCard-hoverContainer-content" href="#">
-                        <a class="appCard-description ng-binding ng-isolate-scope" ellipsis href="#" tabindex=0>Get
-                            powerful analytics, generate sophisticated reports, gain insights into your customer groups,
-                            profit loss accounting by SKU, plus more.</a>
+                    <div class="appCard-hoverContainer-content">
+                        <a class="appCard-description ng-binding ng-isolate-scope" ellipsis [href]="exeCard.hrefDetail" tabindex=0>{{exeCard.description}}</a>
                     </div>
                 </div>
             </div>

@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-shopify',
-  templateUrl: './shopify.component.html',
+  selector: 'app-shopify-detail',
+  templateUrl: './shopify-detail.component.html',
   styleUrls: ['./../../../../assets/shopy/styles/styles.css']
 })
-export class ShopifyComponent implements OnInit {
+export class ShopifyDetailComponent implements OnInit {
 
   constructor() { }
 

@@ -2397,7 +2397,7 @@ screen and (max-device-width:768px) and (max-device-height:768px) and (-webkit-m
 
 @font-face {
     font-family: 'Selawik Web';
-    src: url(../fonts/fontwoffEFQVm7twoff2.woff2);
+    src: url(../fonts/fontwoffEFQVm7twoff2.woff2) format('woff2');
     font-weight: 100;
     font-style: normal
 }
@@ -2967,7 +2967,7 @@ screen and (max-device-width:768px) and (max-device-height:768px) and (-webkit-m
     font-style: normal
 }
 
-@font-face {
+/* @font-face {
     src: url(../fonts/fontwoffEFQVm7twoff2.woff2);
     font-weight: 100;
     font-style: normal
@@ -2989,7 +2989,7 @@ screen and (max-device-width:768px) and (max-device-height:768px) and (-webkit-m
     src: url(../fonts/fontwoff8XKSsYtwoff2.woff2);
     font-weight: 600;
     font-style: normal
-}
+} */
 
 @keyframes css-37 {
     0% {
